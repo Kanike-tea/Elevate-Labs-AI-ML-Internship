@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('/Users/kanike/Documents/ai&ml internship/Elevate-Labs-AI-ML-Internship/task 1/Titanic-Dataset.csv')
+df = pd.read_csv('Titanic-Dataset.csv')
 numerical_cols = ['Age', 'Fare', 'SibSp', 'Parch']
 
 # Boxplot before removing outliers
